@@ -196,31 +196,34 @@ footer a:link, footer a:visited {
 	}
 /*
 table.charityclass{
-    border: 1px solid black;
-    table-layout: fixed;
-    width: 200px;
+    border: 1px solid #555753;
 }
 */
 
 td.ctitle0{
     width: 150px;
     text-align: center;
+    border: 1px solid #555753;
 }
 td.ctitle1{
     width: 700px;
+    border: 1px solid #555753;
 
 }
 td.ctitle2{
     width: 200px;
     text-align: center;
+    border: 1px solid #555753;
 }
 td.ctitle3{
     width: 165px;
     text-align: center;
+    border: 1px solid #555753;
 }
 
 tr.title{
     text-align: center;
+    border: 1px solid #555753;
 }
 
 input.navbutton {
@@ -239,28 +242,55 @@ div.bodypage{
     height: 900px;
 }
 
-div.bottombar{
-    float: right;
+#footer {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    right: inherit;
+    bottom: 0px;
+}
+#footer1 {
+    text-align: center;        
 }
 
 a:link {
-    color: olive;
+    color: saddlebrown;
 }
 
 /* visited link */
 a:visited {
-    color: olivedrab;
+    color: saddlebrown;
 }
 
 /* mouse over link */
 a:hover {
-    color: saddlebrown;
+    color: chocolate;
 }
 
 /* selected link */
 a:active {
     color: darkgreen;
+}
+
+p.toptitle {
+    font-family: Papyrus, fantasy;
+    color: #F3EBE0;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 65px;
+    left: 10px;
+}
+
+
+div.headerBar {
+    display: inline;
+    height: 50px;
+    background: #555753;
+    position: fixed;
+    top: 0;
+    width: 1080px;
+}
+
+td.navtitletd {
+    width: 600px;
 }
