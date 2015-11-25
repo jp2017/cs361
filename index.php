@@ -6,17 +6,19 @@
         <title>Second Chance Association</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta http-equiv="refresh" content="60" />
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style1.css">
     </head>
     <? include 'topbar.php'?>
     <body>
-        <div id="page">
+        <div id="page" class="bodypage">
             <div id="content">
-                <div><h3>Welcome to Second Chance Assiociation</h3></div>
+                <div><h3>Welcome to Second Chance Association</h3></div>
                 <p>
-                    Second Chance Assiociation is here to serve those who took a wrong path and now are in needed for a second chance in life. We take a great pride in helping everyone live better lives.   
+                    Second Chance Association is here to serve those who took a wrong path and now are in needed for a second chance in life. We take a great pride in helping everyone live better lives.   
                 </p>
-                <? include 'connectiontest.php' ?>
+                <div id="nav" style"color=#988F5E">
+                    <ul><li><a href="/charities.php">Charities</a></li></ul>
+                </div>
             </div>
         </div>
     </body>

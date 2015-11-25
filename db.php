@@ -16,5 +16,4 @@ $db_selected = mysql_select_db(
    $link
 ) or die("db_selected die");
 
-echo "success";
 ?>
