@@ -2,7 +2,7 @@
 p.topbar {border-style: solid;}
 
 div {
-    background-color: lavender;
+    background-color: #F3EBE0;
 }
 
 div.menu {
@@ -17,4 +17,8 @@ h1 {
 }
 p.table {
     border: 1px;
+}
+tr.title {
+    color:#2C7198;
+    text-decoration:underline;
 }
