@@ -32,18 +32,19 @@
     </td>
     <form name="topbar" method="post" action="">
     <td>
-        <input type="Submit" name="My Account" id="My Account" value="My Account" class="navbutton">
+        <input type="Submit" name="My Account" id="My Account" value="My Account" class="myButton">
     </td>  
     <td>
-        <input type="Submit" name="Donate" id="Donate" value="Donate Now" class="navbutton">
+        <input type="Submit" name="Donate" id="Donate" value="Donate Now" class="myButton">
     </td> 
     <td>
-        <input type="Submit" name="Donate" id="Donate" value="Contact Us" class="navbutton">
+        <input type="Submit" name="Donate" id="Donate" value="Contact Us" class="myButton">
     </td> 
     </form>
 
     </TR>
     </TABLE>
+    
 </div>
 
 
