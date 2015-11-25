@@ -8,7 +8,7 @@
         <meta http-equiv="refresh" content="60" />
         <link rel="stylesheet" href="/css/style1.css">
     </head>
-    <? include 'topbar.php'?>
+    <? include 'navbar.php' ?>
     <body>
         <div id="page" class="bodypage">
             <div id="content">
@@ -16,10 +16,13 @@
                 <p>
                     Second Chance Association is here to serve those who took a wrong path and now are in needed for a second chance in life. We take a great pride in helping everyone live better lives.   
                 </p>
-                <div id="nav" style"color=#988F5E">
-                    <ul><li><a href="/charities.php">Charities</a></li></ul>
+                <div id="nav" class="link">
+                    <ul><li><a href="/charities.php">Charities by name</a></li></ul>
                 </div>
             </div>
         </div>
     </body>
+    <footer>
+        <? include 'bottom.php'?>
+    </footer>
 </html>

@@ -8,25 +8,26 @@
         <meta http-equiv="refresh" content="60" />
         <link rel="stylesheet" href="/css/style1.css">
         <?php include 'db.php' ?>
-        <? include 'topbar.php'?>
-    
+        <? include 'navbar.php' ?>
     </head>
     <body>
         <div id="page" class="bodypage">
             <div id="content">
                 
                 <div>
-                    <H1>Charities:</H1>
+                    <H1>Charity Information</H1>
                 </div>
                 <div id="table">
-                    <table border = 1 class="charityclass">
+                    <table class="charityclass">
                         <tr id="title" class="title">
-                            <td><H2>Name</H2></td>
-                            <td><H2>Description</H2></td>
-                            <td><H2>Services</H2></td>
-                            <td><H2>Location</H2></td>
+                            <td><H2>Name:</H2></td>
+                            <td><H2>Description:</H2></td>
+                            <td><H2>Services:</H2></td>
+                            <td><H2>Location:</H2></td>
                         </tr>
                         <?php
+    
+
 
                             $result = mysql_query("SELECT charityname, description, services, location FROM charities");
                             if (!$result) {
@@ -37,7 +38,9 @@
                             $rows = mysql_num_rows($result);
 
                             //echo $rows;
-
+                            
+                            usort($result, "cmp");
+                            
                             for($i = 0; $i < $rows; $i++){
                                 $row = mysql_fetch_array($result);
                                 echo "<tr>";
@@ -65,9 +68,10 @@
                     </table>
                 </div>
             </div>
-            <? include 'bottom.php' ?>
+            <footer>
+                <? include 'bottom.php'?>
+            </footer>
         </div>
-        
     </body>
 </html>              
                 
