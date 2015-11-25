@@ -1,3 +1,3 @@
 <div>
-    <a><h3>Alright reserved 2015</h3>
+    <h3>© 2015 SecondChanceAssociation.com All Rights Reserved</h3>
 </div>
