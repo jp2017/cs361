@@ -18,7 +18,7 @@
 		while($row = mysqli_fetch_assoc($result)){						
 			echo "<br>Name: " . $row["Name"];
 			echo "<br>Description: " . $row["Description"];
-			echo "<br>Occupation: " . $row["Eligibility"];
+			echo "<br>Services: " . $row["Service"];
 			echo "<br>Location: " . $row["Location"] . "<br>";
 		}
 	}
