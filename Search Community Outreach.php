@@ -2,15 +2,15 @@
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL ^ E_NOTICE);
 	$servername = "oniddb.cws.oregonstate.edu";
-	$username = "nichokyl-db";
-	$password = "1hvHqfNBEOL6iwL9";
-	$dbname = "nichokyl-db";
+	$username = "acklesb-db";
+	$password = "cWwPMQekP8Vuk0fn";
+	$dbname = "acklesb-db";
 	$conn = mysqli_connect($servername, $username, $password, $dbname);	//connect to database
 	if (!$conn){
 		die("Connection failed: " . mysqli_connect_error()); 	//if can't connect to server
 	}
-	$searchString = $_POST["Community Programs"];				//looking for community programs
-	$sql = "SELECT * FROM Community WHERE Occupation='$searchString'";	//get all the community programs
+	$searchString = $_POST["Community_Programs"];				//looking for community programs
+	$sql = "SELECT * FROM community_Services WHERE location='$searchString'";	//get all the community programs
 	$result = mysqli_query($conn, $sql);								//get the results from the database
 	$count = mysql_num_rows($result);
 	echo "<br>There are " . count . " community programs in your area.";
