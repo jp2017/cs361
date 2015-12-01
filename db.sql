@@ -22,6 +22,8 @@ INSERT INTO `charities`(`charityname`, `description`, `location`,`services`,`vol
 
 INSERT INTO `charities`(`charityname`, `description`, `location`,`services`,`volunteer`) VALUES ('Metropolitan Affordable Housing Corp.','Metropolitan Affordable Housing Corporation is an entrepreneurial non-profit organization committed to improving the quality of life for people living on limited incomes. We develop and manage quality affordable housing communities','Eugene', 'services', 'volunteer');
 
+INSERT INTO `charities`(`charityname`, `description`, `location`,`services`,`volunteer`) VALUES ('Willamette Valley Housing','A charitable organization set up in 2002 for providing inexpensive housing to those in need.','Beaverton, OR','Housing',NULL);
+
 INSERT INTO services(`charityname`, `description`) VALUES ('Oregon Heat', 'Providing funds to low incomes families or individuals');
 
 INSERT INTO services(`charityname`, `description`) VALUES ('Oregon Food Bank', 'Providing food');

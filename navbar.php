@@ -1,25 +1,7 @@
 <head>
-    <link rel="stylesheet" href="/css/style1.css">
+    <link rel="stylesheet" href="./css/style1.css">
 </head>
 
-
-<TABLE BORDER="0">
-<TR>
-
-<TD><FORM METHOD="LINK" ACTION="index.html">
-<INPUT TYPE="submit" VALUE="HTML Goodies Domain Page">
-</FORM></TD>
-
-<TD><FORM METHOD="LINK" ACTION="http://espn.go.com">
-<INPUT TYPE="submit" VALUE="ESPN">
-</FORM></TD>
-
-<TD><FORM METHOD="LINK" ACTION="http://www.cnn.com">
-<INPUT TYPE="submit" VALUE="CNN News">
-</FORM></TD>
-
-</TR>
-</TABLE>
 
     
     
@@ -28,7 +10,7 @@
     <TR>
     
     <td class="navtitletd">
-        <p class="toptitle">Second Chance Association</p>
+        <p class="toptitle"><a href="index.php">Second Chance Association</a></p>
     </td>
     <form name="topbar" method="post" action="">
     <td>

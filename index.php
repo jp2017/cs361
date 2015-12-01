@@ -6,7 +6,7 @@
         <title>Second Chance Association</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta http-equiv="refresh" content="60" />
-        <link rel="stylesheet" href="/css/style1.css">
+        <link rel="stylesheet" href="./css/style1.css">
     </head>
     <? include 'navbar.php' ?>
     <body>
@@ -17,7 +17,8 @@
                     Second Chance Association is here to serve those who took a wrong path and now are in needed for a second chance in life. We take a great pride in helping everyone live better lives.   
                 </p>
                 <div id="nav" class="link">
-                    <ul><li><a href="/charities.php">Charities by name</a></li></ul>
+                    <ul><li><a href="charities_name.php">Charities by name</a></li></ul>
+                    <ul><li><a href="add_charity.php">Add a new charity to the database</a></li></ul>
                 </div>
             </div>
         </div>
