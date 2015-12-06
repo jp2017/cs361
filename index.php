@@ -19,6 +19,9 @@
                 <div id="nav" class="link">
                     <ul><li><a href="charities_name.php">Charities by name</a></li></ul>
                     <ul><li><a href="add_charity.php">Add a new charity to the database</a></li></ul>
+					<ul><li><a href="paroleofficer_search.php">Search for a felon's parole officer</a></li></ul>
+					<ul><li><a href="add_jobs.php">Advertise a new job</a></li></ul>
+					<ul><li><a href="add_support.php">Advertise a new support group</a></li></ul>
                 </div>
             </div>
         </div>
